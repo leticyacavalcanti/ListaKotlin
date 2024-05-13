@@ -4,7 +4,3 @@ class Produto(var nome: String, var preco: Double, var quantidade: Int) {
     }
 }
 
-fun main() {
-    val produto = Produto("BOLA DO NEYMAR", 49.99, 10)
-    println(produto.apresentar())
-}
